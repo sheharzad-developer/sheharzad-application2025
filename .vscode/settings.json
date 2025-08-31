@@ -32,5 +32,8 @@
     "**/node_modules": true,
     "next-env.d.ts": true
     // "**/components.json": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
   }
 }
