@@ -42,11 +42,20 @@ const config: Config = {
         inter: ["var(--font-inter)"],
         "space-grotesk": ["var(--font-space-grotesk)"],
       },
+      borderRadius: {
+        "2": "8px",
+        "1.5": "6px",
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
       backgroundImage: {
-        "dark-gradient": "linear-gradient(232deg, rgba(23, 28, 35, 0.41) 0%, rgba(19, 22, 28, 0.7) 100%)",
+        "auth-dark": 'url("/images/auth-dark.png")',
+        "auth-light": 'url("/images/auth-light.png")',
       },
       boxShadow: {
-        "light-100": "0px 12px 20px 0px rgba(184, 184, 184, 0.03), 0px 6px 12px 0px rgba(184, 184, 184, 0.02), 0px 2px 4px 0px rgba(184, 184, 184, 0.03)",
+        "light-100":
+          "0px 12px 20px 0px rgba(184, 184, 184, 0.03), 0px 6px 12px 0px rgba(184, 184, 184, 0.02), 0px 2px 4px 0px rgba(184, 184, 184, 0.03)",
         "light-200": "10px 10px 20px 0px rgba(218, 213, 213, 0.1)",
         "light-300": "-10px 10px 20px 0px rgba(218, 213, 213, 0.1)",
         "dark-100": "0px 2px 10px 0px rgba(46, 52, 56, 0.1)",
